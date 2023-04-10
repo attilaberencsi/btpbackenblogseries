@@ -1,0 +1,12 @@
+{
+    "welcomeFile": "AppRouterHome.html",
+    "authenticationMethod": "route",    
+    "routes": [
+      {          
+        "source": "^/take-me/to-sap/(.*)$",
+        "target": "$1",
+        "destination": "env_destination_saphome",
+        "authenticationType": "xsuaa"
+      }
+    ]
+  }

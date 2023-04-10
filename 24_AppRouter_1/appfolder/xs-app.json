@@ -1,9 +1,0 @@
-{
-    "authenticationMethod": "none",
-    "routes": [
-        {
-            "source": "^/(.*)$",
-            "destination": "env_destination_saphome"
-        }
-    ]
-}

@@ -4,6 +4,9 @@ applications:
   host: myapprouterconfapp
   path: appfolder
   memory: 128M
+  services:
+  - XsuaaForApprouterConf  # this binding was used in previous learning chapter
+#  - XsuaaForApprouterWithScope
   env:
     destinations: >
       [
@@ -12,3 +15,4 @@ applications:
               "url": "http://sap.com/"
           }
       ]
+
